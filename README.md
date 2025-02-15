@@ -51,10 +51,8 @@ client/
 ## Dependencies
 - React 18
 - Bootstrap 5
-- Tailwind CSS 4
 - Axios
 - React Router DOM
-- shadcn-ui
 - TypeScript
 
 ## Scripts
