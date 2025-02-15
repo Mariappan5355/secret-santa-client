@@ -17,7 +17,7 @@ const FileUpload = () => {
       if (currentYearFile) formData.append('currentYear', currentYearFile);
       if (previousYearFile) formData.append('previousYear', previousYearFile);
 
-      const response = await fetch('http://localhost:3001/api/secret-santa/upload', {
+      const response = await fetch('https://secret-santa-server-8igm.onrender.com/api/secret-santa/upload', {
         method: 'POST',
         body: formData,
       });
